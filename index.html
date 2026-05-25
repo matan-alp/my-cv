@@ -455,9 +455,8 @@ a { color: inherit; text-decoration: none; }
   .role-body .side { display: none; }
   .sec-head .meta { display: none; }
   .tl-years span:nth-child(even) { display: none; }
-  .tl-row .lab { display: none; }
-  .tl-row { height: 14px; }
-  .tl-row .bar { top: 0; height: 14px; }
+  .timeline { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .tl-years, .tl-track, .tl-rows { min-width: 480px; }
 }
 @media (max-width: 480px) {
   html { font-size: 13px; }
